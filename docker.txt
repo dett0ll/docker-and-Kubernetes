@@ -1,0 +1,8 @@
+docker pull node 
+Pulls the image from docker hub to local machine
+
+docker run -it node
+Starts interactive session with the node. This command basically starts a container from the base image
+
+docker ps -a 
+it will show that the container is running from the node image we downloaded
